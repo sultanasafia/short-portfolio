@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Fasthand&family=Lato&family=Oswald&family=Pacifico&family=Poppins:ital,wght@0,400;0,500;0,600;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;1,300;1,500;1,700&family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    /* margin-inline: 2rem; */
+    display: grid;
+    gap: 0.5rem;
+}
+
+.box{
+/* max-width: 318px; */
+/* min-height: 200px; */
+/* top: 784px;
+left: 29px; */
+/* border-radius: 3.1px; */
+/* font-size: 5rem; */
+/* color: #fff;
+display: flex; */
+/* align-items: center; */
+/* justify-content: space-between; */
+/* border-rad/ius: 4.5px; */
+/* margin-bottom: 1.5rem; */
+
+}
+h1{
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+   text-shadow: 7px 4px 7px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-style: italic;
+  
+
+}
+
+.box1 ul{
+    background-color:#d1ccc0;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 19px;
+
+}
+ul li{
+    
+    list-style: none;
+}
+ul li a{
+    text-decoration:  none;
+    color: #fff;
+    font-weight:500;
+    font-family: 'Lato', sans-serif;
+}
+/* ============header================== */
+.box2{
+    background-color: #d1ccc0;
+   height: 60vh;
+
+}
+.box2 h1{
+    text-align: left;
+    margin-left: 20px;
+}
+.box2 
+#see-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius:30px ;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    margin-top: 30px;
+    background-image: linear-gradient(45deg, #4fd6b9, #84817a);
+}
+
+#cv-btn {
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    border-radius:30px ;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    margin-top: 30px;
+    background-image: linear-gradient(45deg, #6fbbab, #84817a);
+      
+}
+
+#cv-btn:hover, #see-btn:hover{
+    border-top-right-radius: 30px;
+}
+
+.pic{
+   width: 580px;
+   margin-left: 20px;
+   margin-top: 30px;
+}
+
+a{
+    margin: 10px;
+}
+
+/* ====================button================ */
+
+.box3{
+    background-color: #ece8e0;
+    
+}
+
+#form1{
+    width: 200px;
+    max-height: 300px;
+    margin-left: 70px;
+    padding: 20px;
+}
+#form1 input{
+  padding: 10px;
+   border-radius: 10px;
+   
+    width: 300px;
+}
+#form1 label{
+font-size: 20px;
+}
+
+#form1 #submit{
+    width: 130px;
+    background-image: linear-gradient(45deg, #6fbbab, #84817a);
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    display: inline-block;
+    border-radius:30px ;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+    border: none;
+    
+
+}
+input, #submit:hover{
+    border-top-right-radius: 30px;
+
+}
+textarea{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+#know{
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+   text-shadow: 7px 4px 7px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+a i{
+    font-size: 60px;
+   margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.box4{
+    background-color:#d1ccc0;
+   height: 100vh;
+   
+   
+    
+}
+.box5{
+    background: #d1ccc0;
+    
+}
+@media screen and (min-width:720px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box1{
+        grid-column-start: 2 span;
+    }
+    .box3{
+        grid-row-start: 2 span;
+    }
+    .box5{
+        grid-column-start: 2 span;
+    }
+}
+@media screen and (min-width:1440px){
+.container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1{
+    font-weight:800 ;
+    font-size: 3rem;
+}
+}
